@@ -1,0 +1,46 @@
+Feature,Coefficient
+num__SeniorCitizen,0.0534492420300616
+num__tenure,-1.2575391028637914
+num__MonthlyCharges,-0.591863232530114
+num__TotalCharges,0.5362533147165749
+cat__gender_Female,-0.16813354022902596
+cat__gender_Male,-0.14642073874773912
+cat__Partner_No,-0.16742474525372525
+cat__Partner_Yes,-0.14712953372302903
+cat__Dependents_No,-0.046066955889589346
+cat__Dependents_Yes,-0.2684873230871718
+cat__PhoneService_No,-0.139809117926996
+cat__PhoneService_Yes,-0.17474516104976537
+cat__MultipleLines_No,-0.2793940245893574
+cat__MultipleLines_No phone service,-0.139809117926996
+cat__MultipleLines_Yes,0.10464886353959466
+cat__InternetService_DSL,-0.6486456669146041
+cat__InternetService_Fiber optic,0.6341954225898783
+cat__InternetService_No,-0.3001040346520322
+cat__OnlineSecurity_No,0.15627892608126379
+cat__OnlineSecurity_No internet service,-0.3001040346520322
+cat__OnlineSecurity_Yes,-0.17072917040600327
+cat__OnlineBackup_No,0.03345453419014852
+cat__OnlineBackup_No internet service,-0.3001040346520322
+cat__OnlineBackup_Yes,-0.047904778514868095
+cat__DeviceProtection_No,-0.03643283887679453
+cat__DeviceProtection_No internet service,-0.3001040346520322
+cat__DeviceProtection_Yes,0.021982594552073412
+cat__TechSupport_No,0.1315034392675331
+cat__TechSupport_No internet service,-0.3001040346520322
+cat__TechSupport_Yes,-0.14595368359226948
+cat__StreamingTV_No,-0.21493165912491188
+cat__StreamingTV_No internet service,-0.3001040346520322
+cat__StreamingTV_Yes,0.20048141480018639
+cat__StreamingMovies_No,-0.2153877775995549
+cat__StreamingMovies_No internet service,-0.3001040346520322
+cat__StreamingMovies_Yes,0.20093753327483
+cat__Contract_Month-to-month,0.5828828386995839
+cat__Contract_One year,-0.12084359995707532
+cat__Contract_Two year,-0.7765935177192744
+cat__PaperlessBilling_No,-0.34322671091459844
+cat__PaperlessBilling_Yes,0.02867243193783984
+cat__PaymentMethod_Bank transfer (automatic),-0.18613617713492883
+cat__PaymentMethod_Credit card (automatic),-0.21424989423913615
+cat__PaymentMethod_Electronic check,0.19786740047922097
+cat__PaymentMethod_Mailed check,-0.11203560808190113
