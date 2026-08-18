@@ -169,7 +169,7 @@ Mailed check	                19.11%
 Bank transfer (automatic)	16.71%
 Credit card (automatic)	        15.24%
 
-##Churn by Tenure
+## Churn by Tenure
 
 Customers with shorter tenure showed considerably higher churn.
 
@@ -179,7 +179,7 @@ Tenure Group	Churn Rate
 25–48 Months	20.39%
 49–72 Months	9.51%
 
-##Churn by Risk Level
+## Churn by Risk Level
 
 The project categorizes customers into Low, Medium, and High risk.
 
@@ -216,7 +216,7 @@ The application returns:
 - Risk level
 - Retention recommendation
 
-##Example Prediction
+## Example Prediction
 The application can produce results such as:
 Churn Probability: 72.84%
 Prediction: Churn
