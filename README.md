@@ -221,8 +221,7 @@ The application can produce results such as:
 Churn Probability: 72.84%
 Prediction: Churn
 Risk Level: High
-
-# or:
+ or:
 Churn Probability: 1.54%
 Prediction: Stay
 Risk Level: Low
