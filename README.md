@@ -227,6 +227,7 @@ Prediction: Stay
 Risk Level: Low
 
 ## Project Structure
+```
 Customer-Churn-Prediction-Analytics/
 │
 ├── app/
@@ -235,7 +236,6 @@ Customer-Churn-Prediction-Analytics/
 ├── data/
 │   ├── raw/
 │   │   └── customer_churn.csv
-│   │
 │   └── processed/
 │       ├── cleaned_customer_churn.csv
 │       ├── churn_predictions.csv
@@ -265,5 +265,58 @@ Customer-Churn-Prediction-Analytics/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
+## How to Run the Project
+1. Clone the repository
+-- git clone https://github.com/Nayanapatelgc/Customer-Churn-Prediction-Analytics.git
+-- cd Customer-Churn-Prediction-Analytics
+   
+2. Create a virtual environment:
+-- python -m venv .venv
+   
+3. Activate the virtual environment
+--  .venv\scripts\activate
+
+5. Install dependencies:
+-- pip install -r requirements.txt
+   
+6. Run the Streamlit application
+-- streamlit run app/app.py
+
+## Prediction Testing
+
+The prediction function was tested using customer input scenarios.
+
+The test script can be executed using:
+-- python src/test_prediction.py
+
+Prediction Result
+-----------------------
+Churn Probability: 76.44 %
+Prediction: Churn
+Risk Level: High
+
+## Key Business Insights
+
+The analysis identified several important churn patterns:
+- Month-to-month customers have the highest churn rate.
+- Customers with shorter tenure are more likely to churn.
+- Fiber optic customers show a higher churn rate than DSL customers.
+- Electronic check users have the highest churn rate among payment methods.
+- Customers classified as High Risk have substantially higher churn than Low Risk customers.
+- Customers who churned had higher average monthly charges than retained customers.
+
+## Future Improvements
+- Deploy the Streamlit application publicly
+- Add automated model retraining
+- Add more advanced models such as XGBoost
+- Add customer retention recommendations
+- Add interactive business dashboards
+- Monitor model performance over time
+- Add automated data pipelines
+
+## Author
+Nayana Patel G C
+   
 
