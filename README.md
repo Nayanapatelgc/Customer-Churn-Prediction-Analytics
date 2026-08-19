@@ -269,27 +269,27 @@ Customer-Churn-Prediction-Analytics/
 
 ## How to Run the Project
 1. Clone the repository:
-   git clone https://github.com/Nayanapatelgc/Customer-Churn-Prediction-Analytics.git
-   cd Customer-Churn-Prediction-Analytics
+   - git clone https://github.com/Nayanapatelgc/Customer-Churn-Prediction-Analytics.git
+   - cd Customer-Churn-Prediction-Analytics
    
 3. Create a virtual environment:
-   python -m venv .venv
+   - python -m venv .venv
    
 4. Activate the virtual environment
-    .venv\scripts\activate
+   - .venv\scripts\activate
 
 5. Install dependencies:
-   pip install -r requirements.txt
+   - pip install -r requirements.txt
    
 6. Run the Streamlit application
-   streamlit run app/app.py
+   - streamlit run app/app.py
 
 ## Prediction Testing
 
 The prediction function was tested using customer input scenarios.
 
 The test script can be executed using:
-    python src/test_prediction.py
+- python src/test_prediction.py
 
 Prediction Result
 -----------------------
